@@ -1,0 +1,266 @@
+@import url(styles.css);
+@import url(styles.css);
+
+
+#portada3 {
+    background-size: cover;
+    background-position: center;
+}
+
+.portada_3 {
+    height: 500px;
+}
+
+
+.menu2 {
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    & h1 {
+        color: black;
+        display: contents;
+        align-items: center;
+    }
+}
+
+.servicio1 {
+    padding: 10px 10px;
+    background-color: var(--colorblanco);
+
+    & h3 {
+        font-size: 3rem;
+        color: var(--colordorado);
+    }
+
+    & p {
+        font-size: 1.3rem;
+        color: black;
+    }
+
+    & img {
+        padding: 5px;
+    }
+}
+
+.servicio2 {
+    padding: 10px 100px 10px 100px;
+    background-color: var(--colorblanco);
+
+    & h3 {
+        font-size: 3rem;
+        padding: 10px;
+        color: var(--colordorado);
+    }
+
+    & p {
+        font-size: 1.8rem;
+        padding: 10px;
+        color: black;
+    }
+
+    & img {
+        padding: 10px;
+    }
+
+}
+
+.texto {
+    & p {
+        font-size: 1.5rem;
+    }
+
+    & h3 {
+        font-size: 3rem;
+    }
+
+    & h4 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1023px) {
+
+    #portada3 {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .portada_3 {
+        height: 500px;
+    }
+
+    .menu2 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 50px;
+
+        & h1 {
+            color: black;
+            display: contents;
+            align-items: center;
+        }
+    }
+
+    .servicio1 {
+        padding: 10px 10px;
+
+        & h3 {
+            text-align: center;
+            font-size: 3rem;
+            color: var(--colordorado);
+        }
+
+        & p {
+            text-align: center;
+            font-size: 1.3rem;
+            color: black;
+        }
+
+        & img {
+            width: 300px;
+            height: auto;
+            padding: 5px;
+        }
+    }
+
+    .servicio2 {
+        padding: 10px;
+        background-color: rgba(201, 196, 196, 0.305);
+        border-radius: 20px;
+
+        & h3 {
+            text-align: center;
+            font-size: 3rem;
+            padding: 10px;
+            color: var(--colordorado);
+        }
+
+        & p {
+            text-align: center;
+            font-size: 1.3rem;
+            padding: 10px;
+            color: black;
+        }
+
+        & img {
+            width: 300px;
+            height: auto;
+            padding: 10px;
+        }
+
+    }
+
+    .texto {
+        & p {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        & h3 {
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        & h4 {
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+    #portada3 {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .portada_3 {
+        height: 500px;
+    }
+
+    .menu2 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 50px;
+
+        & h1 {
+            color: black;
+            display: contents;
+            align-items: center;
+        }
+    }
+
+    .servicio1 {
+        padding: 10px 10px;
+
+        & h3 {
+            text-align: center;
+            font-size: 3rem;
+            color: var(--colordorado);
+        }
+
+        & p {
+            text-align: center;
+            font-size: 1.3rem;
+            color: black;
+        }
+
+        & img {
+            width: 300px;
+            height: auto;
+            padding: 5px;
+        }
+    }
+
+    .servicio2 {
+        padding: 10px;
+        background-color: rgba(201, 196, 196, 0.305);
+        border-radius: 20px;
+
+        & h3 {
+            text-align: center;
+            font-size: 3rem;
+            padding: 10px;
+            color: var(--colordorado);
+        }
+
+        & p {
+            text-align: center;
+            font-size: 1.3rem;
+            padding: 10px;
+            color: black;
+        }
+
+        & img {
+            width: 300px;
+            height: auto;
+            padding: 10px;
+        }
+
+    }
+
+    .texto {
+        & p {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        & h3 {
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        & h4 {
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+}

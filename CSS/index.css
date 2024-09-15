@@ -1,0 +1,386 @@
+@import url(styles.css);
+/*estilos de la portada*/
+
+#portada {
+    background-image: url("../IMAGENES/FLYER.png");
+    height: calc(100vh - 255px);
+}
+
+.portada {
+    height: 100%;
+}
+
+.foto_portada {
+    display: flex;
+    justify-content: center;
+
+    & img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+.texto_portada {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h1 {
+        color: var(--colorazul);
+    }
+
+}
+
+#portada2 {
+    background-size: cover;
+    background-position: center;
+}
+
+.portada2 {
+    height: 500px;
+}
+
+.boton_portada {
+    height: 100%;
+    margin-top: 250px;
+}
+
+.boton_portada2 {
+    position: relative;
+    top: 55%;
+    left: 5%;
+}
+
+#portada3 {
+    background-size: cover;
+    background-position: center;
+}
+
+.portada_3 {
+    height: 500px;
+}
+
+.plan {
+    padding: 10px 30px;
+    background-color: var(--colorblanco);
+
+    & h2 {
+        color: var(--colorblanco);
+    }
+}
+
+.menu4 {
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    & h1 {
+        color: black;
+        display: contents;
+        align-items: center;
+    }
+}
+
+.buscador {
+    padding: 50px;
+    width: 100%;
+}
+
+
+
+.servicio1 {
+    padding: 10px 10px;
+    background-color: var(--colorblanco);
+
+    & h3 {
+        color: var(--colordorado);
+    }
+
+    & p {
+        color: black;
+    }
+
+    & img {
+        padding: 5px;
+    }
+}
+
+.servicio2 {
+    padding: 10px;
+    background-color: var(--colorblanco);
+
+    & h3 {
+        padding: 10px;
+        color: var(--colordorado);
+    }
+
+    & p {
+        padding: 10px;
+        color: black;
+    }
+
+    & img {
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 1023px) {
+    #portada {
+        background-image: url("../IMAGENES/FLYER.png");
+        height: calc(100vh - 255px);
+    }
+
+    .portada {
+        height: 100%;
+    }
+
+    .foto_portada {
+        display: flex;
+        justify-content: center;
+
+        & img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+
+
+    #portada2 {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .portada2 {
+        height: 500px;
+    }
+
+    .boton_portada {
+        height: 100%;
+        margin-top: 250px;
+    }
+
+    .boton_portada2 {
+        position: relative;
+        top: 55%;
+        left: 5%;
+    }
+
+
+
+    .menu4 {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+
+        & h5 {
+            text-align: center;
+        }
+
+        & h1 {
+            text-align: center;
+            color: black;
+            display: contents;
+            align-items: center;
+        }
+
+        & img {
+            width: 300px;
+            height: auto;
+        }
+
+        & btn3 {
+
+
+            & h4 {
+                text-align: center;
+            }
+
+            img {
+                width: 20px;
+                height: auto;
+            }
+        }
+    }
+
+    .buscador {
+        padding: 50px;
+        width: 100%;
+    }
+
+
+
+    .servicio1 {
+        padding: 10px 10px;
+        background-color: var(--colorblanco);
+
+        & h3 {
+            color: var(--colordorado);
+        }
+
+        & p {
+            color: black;
+        }
+
+        & img {
+            padding: 5px;
+        }
+    }
+
+    .servicio2 {
+        padding: 10px;
+        background-color: var(--colorblanco);
+
+        & h3 {
+            padding: 10px;
+            color: var(--colordorado);
+        }
+
+        & p {
+            padding: 10px;
+            color: black;
+        }
+
+        & img {
+            padding: 10px;
+        }
+
+    }
+}
+
+@media (max-width: 767px) {
+    #portada {
+        background-image: url("../IMAGENES/FLYER.png");
+        height: calc(100vh - 255px);
+    }
+
+    .portada {
+        height: 100%;
+    }
+
+    .foto_portada {
+        display: flex;
+        justify-content: center;
+
+        & img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+
+
+    #portada2 {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .portada2 {
+        height: 500px;
+    }
+
+    .boton_portada {
+        height: 100%;
+        margin-top: 250px;
+    }
+
+    .boton_portada2 {
+        position: relative;
+        top: 55%;
+        left: 5%;
+    }
+
+
+
+    .menu4 {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+
+        & h5 {
+            text-align: center;
+        }
+
+        & h1 {
+            text-align: center;
+            color: black;
+            display: contents;
+            align-items: center;
+        }
+
+        & img {
+            width: 300px;
+            height: auto;
+        }
+
+        & btn3 {
+
+
+            & h4 {
+                text-align: center;
+            }
+
+            img {
+                width: 20px;
+                height: auto;
+            }
+        }
+    }
+
+    .buscador {
+        padding: 50px;
+        width: 100%;
+    }
+
+
+
+    .servicio1 {
+        padding: 10px 10px;
+        background-color: var(--colorblanco);
+
+        & h3 {
+            color: var(--colordorado);
+        }
+
+        & p {
+            color: black;
+        }
+
+        & img {
+            padding: 5px;
+        }
+    }
+
+    .servicio2 {
+        padding: 10px;
+        background-color: var(--colorblanco);
+
+        & h3 {
+            padding: 10px;
+            color: var(--colordorado);
+        }
+
+        & p {
+            padding: 10px;
+            color: black;
+        }
+
+        & img {
+            padding: 10px;
+        }
+
+    }
+}

@@ -1,0 +1,56 @@
+footer {
+    background-color: #484848;
+}
+
+
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    color: var(--colorblanco);
+    padding: 10px 20px;
+
+    & .politicas {
+        flex-direction: column;
+        gap: 50px;
+
+        & h6 {
+            font-size: 2rem;
+            color: var(--colordorado);
+        }
+
+        & a {
+            font-size: 1.5rem;
+            color: var(--colorblanco);
+        }
+
+        & a:hover {
+            color: var(--colordorado);
+        }
+    }
+}
+
+.logoabajo {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    width: auto;
+
+    & img {
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+
+        & .politicas {
+            flex-direction: column;
+            gap: 25px;
+            text-align: center;
+        }
+    }
+}

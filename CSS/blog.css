@@ -1,0 +1,170 @@
+@import url(styles.css);
+
+.boton_portada {
+    height: 100%;
+    margin-top: 250px;
+}
+
+.boton_portada2 {
+    position: relative;
+    top: 55%;
+    left: 5%;
+}
+
+
+.menu2 {
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    & h1 {
+        color: black;
+        display: contents;
+        align-items: center;
+    }
+}
+
+
+
+
+.servicio1 {
+    display: flex;
+    flex-direction: column;
+
+    & p {
+        font-size: 2.5rem;
+        color: rgb(97, 94, 94);
+        text-align: center;
+    }
+
+}
+
+.servicio2 {
+    padding: 10px;
+    background-color: var(--colorblanco);
+
+    & h3 {
+        padding: 10px;
+        color: var(--colordorado);
+    }
+
+    & h5 {
+        padding: 10px;
+        color: black;
+    }
+
+
+    & img {
+        padding: 10px;
+    }
+
+}
+
+
+.parrafo {
+    text-align: center;
+}
+
+.icono {
+    display: flex;
+    padding: 30px;
+}
+
+
+
+@media (max-width: 1023px) {
+
+
+    .menu2 {
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+
+        & img {
+            width: 200px;
+            height: auto;
+        }
+
+
+    }
+
+
+    .imagenblog {
+        width: 50px;
+        height: auto;
+
+    }
+
+    .servicio1 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 50px;
+
+    }
+
+    .servicio2 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .icono {
+        display: flex;
+        padding: 30px;
+
+        & img {
+            width: 60px;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .menu2 {
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+
+        & img {
+            width: 200px;
+            height: auto;
+        }
+    }
+
+
+    .imagenblog {
+        width: 50px;
+        height: auto;
+    }
+
+    .servicio1 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 50px;
+
+    }
+
+    .servicio2 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .icono {
+        display: flex;
+        padding: 30px;
+
+        & img {
+            width: 60px;
+            height: auto;
+        }
+    }
+}
